@@ -1,6 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400&family=Jura:wght@400;500;600;700&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    font-family: 'Inter Tight', sans-serif;
+    font-family: 'Jura', sans-serif;
 }
+
+header {
+    height: 1024px;
+    background: url('../DeepToothDoc/bg.svg') no-repeat;
+    background-position: center bottom ;
+}
+
+.container {
+    max-width: 1436px;
+    margin: 0 auto;
+}
+
+nav {
+    height: 107px;
+    /*border: 1px solid red;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+nav ul {
+    margin-left: -170px;
+    font-size: 20px;
+}
+
+nav div {
+    display: flex;
+    list-style: none;
+    width: 720px;
+    /*border: 1px solid red;*/
+    justify-content: space-between;
+    font-size: 20px;
+      
+}
+
+nav div li a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.Home {
+    background: #637A9F;
+    color: #fff;
+    text-decoration: none;
+    padding: .5rem 1.5rem;
+    border-radius: 2px;
+    margin-right: 25px;
+}
+
+.OurProject {
+    background: #637A9F;
+    color: #fff;
+    text-decoration: none;
+    padding: .5rem 1.5rem;
+    border-radius: 2px;
+    margin-right: 25px;
+}
+
+.Members {
+    background: #637A9F;
+    color: #fff;
+    text-decoration: none;
+    padding: .5rem 1.5rem;
+    border-radius: 2px;
+    margin-right: 25px;
+}
+
+.Achievement {
+    background: #637A9F;
+    color: #fff;
+    text-decoration: none;
+    padding: .5rem 1.5rem;
+    border-radius: 2px;
+    margin-right: 25px;
+}
+
+/*
+    text-align: center;
+    align-items: center;
+
+    width: 171px;
+    background: #637A9F;
+    height: 55px;
+        
+    justify-content: space-between;
+
+}*/
+/*   align-items: center;
+
+    color: #fff;
+    display: inline-block; 
+    font-size: 20px;   
+}*/
+
+/*.logo a h1 {
+    font-size: 36px;
+}*/
+
+/*.nav-btn {
+    text-align: center;
+    width: 171px;
+    background: #637A9F;
+    height: 55px;
+    align-items: center;
+    justify-content: center;
+}*/
