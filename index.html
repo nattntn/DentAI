@@ -8,10 +8,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>DeepTooth</title>
     <link rel="icon" type="image/png" href="./DeepToothDoc/logo2.svg">
-    <!--link rel="stylesheet" href="./LegalDoc/font-awesome.min.css">
+    <!--link rel="stylesheet" href="./LegalDoc/font-awesome.min.css"-->
     <link rel="stylesheet" href="./LegalDoc/codemirror.min.css">
-    <link rel="stylesheet" href="./LegalDoc/app.css">
-    <link rel="stylesheet" href="./LegalDoc/bootstrap.min.css"-->
+    <!--link rel="stylesheet" href="./LegalDoc/app.css"-->
+    <!--link rel="stylesheet" href="./LegalDoc/bootstrap.min.css"--> 
     <link rel="stylesheet" href="CSS/main.css">     
 </head>
 <body>
@@ -20,7 +20,7 @@
             <nav>
                 <img src="./DeepToothDoc/logo1.svg" >
                 <ul class="logo">
-                    <a href="#" > 
+                    <a href="#" style="text-decoration: none;"> 
                         <!--img src="./DeepToothDoc/logo1.svg" -->
                         <h1><strong>
                             <font style="color:#000000">Dent</font><font style="color:#211C6A">al</font> 
@@ -30,14 +30,18 @@
                     </a>                   
                 </ul>
                 <div class="nav-btn">
-                    <li><a href="#" class="Home">Home</a></li>
-                    <li><a href="#" class="OurProject">Our Project</a></li>
-                    <li><a href="#" class="Members">Members</a></li>
-                    <li><a href="#" class="Achievement">Achievement</a></li>
+                    <li><a href="#head line" class="Home">Home</a></li>
+                    <li><a href="#mainOurProject" class="OurProject">Our Project</a></li>
+                    <li><a href="#members" class="Members">Members</a></li>
+                    <li><a href="#certificates" class="Achievement">Achievement</a></li>
                 </div>
             </nav>
-            <section class="header-info">
+
+            <section class="head line" id = "head line">
                 <img class="line" src="./DeepToothDoc/Line.svg" alt="alt text">
+            </section>
+
+            <section class="header-info">
                 <div class="header-title">
                     <h1><strong>DENTAI</strong></h1>
                 </div>
@@ -45,11 +49,245 @@
                     <p>DEEP AGE AND GENDER ESTIMATION<br>
                          VIA PANORAMIC RADIOGRAPH</p>
                 </div>
+                <img class="logo2"src="DeepToothDoc/logo2.svg" style="float: right;" style="transform: scale(0.8);">
  
             </section>
         </div>
     </header>
-    <div class="container" id="main">
+
+    <section class="mainOurProject" id = "mainOurProject">
+        <div class="container">
+            <div class="our-title">
+                <h2><strong>
+                    <font style="color:#211C6A">INTERPRETABLE</font>
+                    <font style="color:#000000">DEEP NEURAL NETWORKS FOR AGE AND GENDER ESTIMATION VIA PANORAMIC RADIOGRAPHS</font>
+                </strong></h2>
+            </div>
+            <div class="our-content">
+                <div class="our-paper">
+                    <div class="paper-img" style="float: right;">
+                        <img src="./DeepToothDoc/cover.svg" alt="" style="transform: scale(0.8);">
+                        <ul class="paper">
+                            <a href="https://drive.google.com/file/d/1D19gfEgvSdCzPSAJlbfYx41jvk7-V4tl/view?usp=drive_link" style="text-decoration: none;">
+                                <h3><strong>Paper</strong></h3>
+                            </a>
+                        </ul>         
+                    </div>
+                </div>
+                <div class="our-app" >
+                    <div class="app-img" style="float: left;">
+                        <img src="./DeepToothDoc/logo3.svg" alt="" style="transform: scale(0.8);">
+                        <ul class="app" >
+                            <a href="#" style="text-decoration: none;">
+                                <h3><strong>DENTAI</strong></h3>
+                            </a>
+                            <p><font style="color:#000000">Our application for estimation<br> AGE and GENDER</font></p>
+                        </ul>
+                               
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+    </section>
+    
+
+    <section class="abstract">
+        <div class="container">
+            <div class="head">
+                <img class="overview" src="./DeepToothDoc/Abstract.svg" alt="alt text">
+                <!--div class="box">
+                    <img class="box" src="./DeepToothDoc/Rectangle 8.svg" alt="alt text">
+                </div>
+                <div class="line">
+                    <img class="line" src="./DeepToothDoc/Line 1.svg" alt="alt text">
+                </div>
+                <div class="ab-font">
+                    <h4>Abstract</h4>
+                </div-->   
+            </div>
+            <div class="content-ab" >
+                   Individuals whose teething period deviates from the expected 
+                timeframe or whose biological and physiological ages diverge from their 
+                chronological age pose challenges for dental care planning. This 
+                discrepancy complicates the provision of effective dental healthcare, 
+                underscoring the importance of early diagnosis. Early identification not only 
+                addresses dental health issues but also enables timely intervention in other
+                disorders causing misalignment between tooth age and chronological age.
+                Additionally, dental age and gender estimation find applications in 
+                anthropology and forensic science. Estimating age and gender from
+                panoramic radiographs typically demands expert evaluation, relying on 
+                personal skills and expertise, which can lead to potential errors. Presently, 
+                artificial intelligence systems have been introduced to alleviate challenges 
+                associated with expert evaluation. However, a lingering concern is the 
+                trustworthiness of the model's decisions.<br>
+                <br>
+                   We also demonstrate that the DeepToothDuo model produces 
+                improved interpretability results using SHAP. The researchers trained the 
+                language model for application in developing web applications aimed at 
+                answering users' dental questions. Our proposed model achieves a gender 
+                prediction accuracy of <b>87.38%</b> and exhibits an age estimation error of <b>1.96 years.</b>
+                Model interpretability studies reveal that the model considers anatomical 
+                features consistent with existing studies on dental and human anatomy.
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <section class="overview">
+        <img class="overview" src="./DeepToothDoc/Overview.svg" alt="alt text" style="float: center;">
+    </section>
+
+    <section class="webApp">
+        <div class="container">
+            <div class="head">
+                <img class="app" src="./DeepToothDoc/Web Allpication.svg" alt="alt text" >
+            </div>
+            <div class="vdo" style="float: center;">
+                <video id="v0" width="100%" autoplay="" loop="" muted="" controls="">
+                    <source src="#" type="video/mp4">
+                </video><br>
+            </div>
+            <h4><strong>Result</strong></h4>
+            <div class="estimation">
+                <div class="age">
+                    <h5>Age Estimation</h5>
+                    <img class="conAge" src="./DeepToothDoc/age.svg" alt="" >
+                </div>
+                <div class="gen">
+                    <h5>Gender Prediction</h5>
+                    <img class="conGen" src="./DeepToothDoc/gen.svg" alt="" >
+                </div>
+            </div>
+
+            <h6><strong>YOLO</strong></h6>
+            <div class="yolo">
+                <div class="con">
+                    <img class="conYOLO" src="./DeepToothDoc/con1.svg" alt="alt text" >
+                </div>
+                <div class="pr">
+                    <img class="PR" src="./DeepToothDoc/pr.svg" alt="alt text" >
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+    <section class="certificates" id = "certificates">
+        <img class="line2" src="./DeepToothDoc/Line 1.svg" alt="alt text" style="float: center;" >
+        <h4><strong>Certificates</strong></h4>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+    </section>
+
+    <section class="teammembers" id = "members">
+        <img class="line3" src="./DeepToothDoc/Line 1.svg" alt="alt text" >
+        <h4><strong>Team Members</strong></h4>
+        <div class="aj">
+            <img src="./DeepToothDoc/AJ.svg" style="transform: scale(0.8);">
+            <li>
+                <a href="https://vi-lab-th.github.io/"style="text-decoration: none;">
+                    <h3><strong>Project Advisor</strong></h3>
+                    <P>Asst.Prof.Dr.Thanapong Intharah</P>
+            </a></li>
+        </div>
+
+        <div class="student">
+            <div class="first">
+                <img src="./DeepToothDoc/1.svg" style="transform: scale(0.8);">
+                <li>
+                    <a href="https://github.com/NarawitPrathansap"style="text-decoration: none;">
+                        <h3><strong>Student</strong></h3>
+                        <P>Narawit Prathansap</P>
+                </a></li>
+            </div>
+            <div class="yoke">
+                <img src="./DeepToothDoc/Yoke.svg" style="transform: scale(0.8);">
+                <li>
+                    <a href="https://github.com/pornnakanok"style="text-decoration: none;">
+                        <h3><strong>Student</strong></h3>
+                        <P>Pornnakanok Phuphatham</P>
+                </a></li>
+            </div>
+            <div class="nat">
+                <img src="./DeepToothDoc/Nat.svg" style="transform: scale(0.8);">
+                <li>
+                    <a href="https://github.com/nattntn" style="text-decoration: none;">
+                        <h3><strong>Student</strong></h3>
+                        <P>Natthanich Hirunchavarod</P>
+                </a></li>
+            </div>
+
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br> 
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+                 
+    </section>
+
+
+
+
+
+
+
+</body></html>
+
+    <!--div class="container" id="main">
         <div class="row">
             <h1 class="col-md-12 text-center"style="font-size: 46px;">
                <strong>
@@ -59,8 +297,8 @@
                 <br>
             </h1>
             
-            <!-- <center><img src="\\wsl$\Ubuntu-20.04\root\Web\LegalDoc_NLP\LegalDoc\S__6717445.jpg" height="300px"><br></div></center> -->
-        </div>
+            <--!-- <center><img src="\\wsl$\Ubuntu-20.04\root\Web\LegalDoc_NLP\LegalDoc\S__6717445.jpg" height="300px"><br></div></center> -->
+        <!--/div>
         <div class="row">
             <div class="col-md-8 col-md-offset-2 text-center">
                 <h1 class="col-md-12 text-center">
@@ -99,7 +337,7 @@
                 </ul>
             </div>
         </div>
-        <!-- <div class="row">
+        <--!-- <div class="row">
             <div class="col-md-12 text-center">
                  <ul class="list-inline">
                     <li>
@@ -119,7 +357,7 @@
             </div>
         </div> -->
     
-        <div class="row">
+        <!--div class="row">
             <hr>
             <h1 class="col-md-12 text-center">
                 <strong>Main Content</strong><br> 
@@ -205,7 +443,7 @@
         </div>
         <br>
         <br>
-        <!-- <div class="row">
+        <--!-- <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <h3>Presentation</h3>
                 <hr>
@@ -223,10 +461,10 @@
                 </ul>
             </div>
         </div> -->
+        <!--br>
         <br>
         <br>
-        <br>
-        <!-- <div class="row">
+        <--!-- <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <h4>รางวัลเหรียญเงินในสาขาวิทยาการคอมพิวเตอร์</h4>
                  <hr>
@@ -243,7 +481,7 @@
         <div class="row">
             <div class="col-md-8 col-md-offset-2"></div>
         </div> -->
-        <div class="row">
+        <!--div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <br>
                 The website template was borrowed from
@@ -251,7 +489,7 @@
                 <p></p>
             </div>
         </div>
-    </div>
+    </div-->
 
 
-</body></html>
+
