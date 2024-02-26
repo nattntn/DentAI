@@ -258,12 +258,34 @@ nav div li a {
 }
 
 .webApp h4 {
-    margin-top: 90px;
+    margin-top: 50px;
     text-align: center;
     font-size: 64px;
     color: #211C6A;
 }
 
+.flow {
+    width: 1200px;
+    height: 1700px;
+    /*border: 1px solid red;*/
+
+}
+.flow h3 {
+
+    margin-top: 50px;
+    text-align: center;
+    font-size: 60px;
+    color: #211C6A;
+
+}
+
+.flow img {
+    /*margin-top: -20px;*/
+    width: 1200px;
+    height: 1700px;
+    /*border: 1px solid red;*/
+
+}
 .estimation {
     display: flex;
     justify-content: space-between;
@@ -308,7 +330,7 @@ nav div li a {
 }
 
 .webApp h6 {
-    margin-top: 30px;
+    margin-top: 20px;
     text-align: center;
     font-size: 40px;
     color: #000;
