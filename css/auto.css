@@ -1,0 +1,429 @@
+/* Responsive adjustments */
+@media only screen and (max-width: 768px) {
+    header {
+        height: 90vw; /* Adjust height for smaller screens */
+        background: url('../DeepToothDoc/bg.svg') no-repeat;
+        background-position: right  bottom -200px;
+       
+    }
+
+    .container {
+        padding: 20px; /* Add padding to the container for smaller screens */
+    }
+
+    nav {
+        height: auto; /* 10% of the viewport height */
+        flex-direction: column; /* Stack navigation items vertically */
+        align-items: flex-start; /* Align items to the start of the container */
+    }
+
+    nav ul h1 {
+        font-size: 4vw; /* 3% of the viewport width */
+    }
+
+    nav div {
+        display: flex;
+        justify-content: space-between;
+        width: auto;
+    }
+    
+    .Home {
+        background: #637A9F;
+        color: #fff;
+        text-decoration: none;
+        padding: 0.5rem 1.5rem;
+        border-radius: 2px;
+        margin-left: 1vw; /* 1% of the viewport width */
+        margin-right: 1vw; /* 0.5% of the viewport width */
+    }
+
+    .OurProject, .Members{
+        background: #637A9F;
+        color: #fff;
+        text-decoration: none;
+        padding: 0.5rem 1.5rem;
+        border-radius: 2px;
+        margin-right: 1vw; /* 0.5% of the viewport width */
+    }
+
+    .Achievement {
+        background: #637A9F;
+        color: #fff;
+        text-decoration: none;
+        padding: 0.5rem 1.5rem;
+        border-radius: 2px;
+
+       
+    }
+
+    .header-info {
+        margin-top: 10vh; /* Adjust as needed */
+    }
+    
+    .header-title h1 {
+        font-size: 8vw; /* Adjust as needed */
+    }
+    
+    .header-content p {
+        font-size: 3vw; /* Adjust as needed */
+    }
+    
+    .logo2 {
+        margin-top: -25vh; /* Adjust as needed */
+        margin-right: -1vw; /* Adjust as needed */
+        width: 40vw;
+        
+    }
+
+    
+    .mainOurProject {
+        background: #fff;
+    }
+    
+    .our-title {
+        margin-top: 10vw; /* Adjust as needed */
+        font-size: 3vw; /* Adjust as needed */
+        width: auto;
+        text-align: center;
+    }
+    
+    .our-content {
+        display: flex;
+        flex-wrap: wrap; /* Wrap items to next line if necessary */
+        justify-content: space-between;
+        margin-top: 5vw; /* Adjust as needed */
+    }
+    
+    .our-paper, .our-app {
+        width: 45%; /* Adjust as needed */
+        height: auto; /* Let height adjust based on content */
+        margin-bottom: 5vh; /* Adjust as needed */
+    }
+
+    .our-paper img, .our-app img{
+        width: 40vw; /* Adjust as needed */
+        height: auto; /* Let height adjust based on content */
+        margin-bottom: 5vh; /* Adjust as needed */
+    }
+    
+    .our-paper h3, .our-app h3 {
+        margin-top: -50px;
+        font-size: 3vw; /* Adjust as needed */
+    }
+    
+    .our-app p {
+        font-size: 2vw; /* Adjust as needed */
+    }
+
+    .abstract {
+        height: 100vw;
+        margin-top: 1vw; /* Adjust as needed */
+        background: #fff;
+        background-image: url("../DeepToothDoc/Abstract.svg");
+        background-position: left top;
+        background-repeat: no-repeat;
+        background-size: 100vw;
+       /* background: url("../DeepToothDoc/Abstract.svg") no-repeat ;
+        background-position: left top -10px;*/
+        /*border: 1px solid blueviolet;*/
+       /*9 border: 1px solid white;*/
+    }
+    
+    .content-ab {
+        font-size: 2.5vw; /* Adjust as needed */
+        padding: 1vh; /* Adjust as needed */
+        width: 90%; /* Adjust as needed */
+        margin-left: auto;
+        margin-right: auto;
+        text-align: jupstify;
+        margin-top: 10vw;
+        line-height: 125%;
+        height: 85vw;
+        /*border: 1px solid greenyellow;*/
+    }
+    
+    .overview {
+        height: 120vw;
+        margin-top:0px; /* Adjust as needed */
+        background: #fff;
+        background-image: url("../DeepToothDoc/Head Overview.svg");
+        background-position: left top;
+        background-repeat: no-repeat;
+        background-size: 100vw;
+        /*border: 1px solid greenyellow;*/
+    
+       /* margin-top: 5vh; /* Adjust as needed */
+       /* background: #fff url("../DeepToothDoc/Head Overview.svg") no-repeat center top;
+        border: 1px solid white;*/
+    }
+    
+    .overview img {
+        margin-top: 10vw;
+        width: 90vw; /* Adjust as needed */
+        height: 100vw;
+        /*border: 1px solid greenyellow;*/
+        
+        /*margin: 0 auto; /* Center content horizontally */
+    }
+    
+    .webApp {
+        height: 248vw;
+        margin-top:0px; /* Adjust as needed */
+        background: #fff;
+        background-image: url("../DeepToothDoc/Web Allpication.svg");
+        background-position: left top;
+        background-repeat: no-repeat;
+        background-size: 100vw;
+        /*border: 3px solid blue;*/
+    
+        /*margin-top: 5vh; /* Adjust as needed */
+        /*background: #fff url("../DeepToothDoc/Web Allpication.svg") no-repeat center top;
+        border: 1px solid white;*/
+    }
+    
+    .vdo {
+        margin-top: 10vw; /* Adjust as needed */
+        width: 90%; /* Adjust as needed */
+        /*margin:  auto; /* Center content horizontally */
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .webApp h4 {
+        margin-top: 1vh; /* Adjust as needed */
+        font-size: 3vw; /* Adjust as needed */
+        color: #211C6A;
+        text-align: center;
+        /*border: 3px solid blue;*/
+    }
+    
+    .flow {
+        margin-top: 2vh; /* Adjust as needed */
+        width: 100vw; /* Adjust as needed */
+        height: 86vw;
+        /*margin: 0 auto; /* Center content horizontally */
+        /*border: 1px solid greenyellow;*/
+
+    }
+    
+    .flow h3 {
+        margin-top: 1vh; /* Adjust as needed */
+        font-size: 3vw; /* Adjust as needed */
+        color: #211C6A;
+        text-align: center;
+    }
+    
+    .flow img {
+        margin-top: 0.5vh;
+        width: 120vw; /* Adjust as needed */
+        height: 80vw;
+        margin-left: -15vw;
+        margin-right: auto;
+       
+        /*border: 1px solid red;*/
+    }
+
+    .estimation {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2vh; /* Adjust as needed */
+    }
+    
+    
+    .age,
+    .gen,
+    .con,
+    .pr {
+        width: 45%; /* Adjust as needed */
+        height: auto; /* Adjust as needed */
+        /*border: 1px solid red;*/
+    }
+    
+    .age img,
+    .gen img{
+        margin-top: 0.5vh;
+        width: 100%; /* Adjust as needed */
+        height: auto; /* Adjust as needed */
+        margin-left: -1vw;
+
+    }
+    
+    .age h5,
+    .gen h5 {
+        font-size: 2vw; /* Adjust as needed */
+        margin-top: 1vh; /* Adjust as needed */
+        text-align: center;
+    }
+
+    .con img{
+        margin-top: 0.5vh;
+        width: 100%; /* Adjust as needed */
+        height: auto; /* Adjust as needed */
+        margin-left: 0vw;
+    }
+
+    .pr img {
+        margin-top: -70vw;
+        width: 100%; /* Adjust as needed */
+        height: auto; /* Adjust as needed */
+        margin-left: 0vw;
+    }
+
+    
+    .webApp h6 {
+        margin-top: 1vh; /* Adjust as needed */
+        font-size: 2.5vw; /* Adjust as needed */
+        color: #000;
+        text-align: center;
+    }
+    
+    .yolo {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1vh; /* Adjust as needed */
+    }
+    
+    .yolo .con,
+    .yolo .pr {
+        width: 45%; /* Adjust as needed */
+    }
+    
+    .yolo .con img {
+        width: 100%; /* Adjust as needed */
+        height: auto; /* Adjust as needed */
+        margin-top: 1vh; /* Adjust as needed */
+        /*border: 1px solid red;*/
+    }
+
+    .yolo .pr img {
+        width: 100%; /* Adjust as needed */
+        height: auto; /* Adjust as needed */
+        margin-top: -4vh; /* Adjust as needed */
+        /*border: 1px solid red;*/
+    }
+
+    .achievement {
+        height: 100vw;
+        margin-top:0px; /* Adjust as needed */
+        background: #fff;
+        background-image: url("../DeepToothDoc/Line 1.svg");
+        background-position: left top;
+        background-repeat: no-repeat;
+        background-size: 100vw;
+        /*border: 3px solid greenyellow;*/
+
+
+        /*margin-top: 5vh; /* Adjust as needed */
+        /*background: #fff url("../DeepToothDoc/Line 1.svg") no-repeat center top;
+        border: 1px solid white;*/
+    }
+    
+    .achievement h4 {
+        font-size: 4vw; /* Adjust as needed */
+        color: #211C6A;
+        text-align: center;
+        margin-top: 1vh; /* Adjust as needed */
+    }
+    
+    .certificates,
+    .publication{
+        margin-top: 1vh; /* Adjust as needed */
+        height: 40vw;
+        /*border: 1px solid rgb(13, 8, 120);*/
+    }
+    
+    .certificates h3,
+    .publication h3{
+        font-size: 3vw; /* Adjust as needed */
+        text-align: left;
+        margin-top: 1vh; /* Adjust as needed */
+        margin-left: 1vw; /* Adjust as needed */
+    }
+    
+    .teammembers {
+        height: 100vw;
+        margin-top:1vw; /* Adjust as needed */
+        background: #fff;
+        background-image: url("../DeepToothDoc/Line 1.svg");
+        background-position: left top;
+        background-repeat: no-repeat;
+        background-size: 100vw;
+        /*border: 3px solid rgb(47, 255, 196);*/
+    }
+    
+    .teammembers h4 {
+        font-size: 4vw; /* Adjust as needed */
+        color: #211C6A;
+        text-align: center;
+        margin-top: 1vh; /* Adjust as needed */
+    }
+    .aj {
+        /*border: 3px solid rgb(47, 255, 196);*/
+        margin-top:1vw;
+        width: 50vw; /* Adjust as needed */
+        height: 50vw;
+        margin-left: auto;
+        margin-right: auto;
+        height: 45vw;
+    }
+
+    .aj img {
+        margin-top: -1vw;
+        width: 80%; /* Adjust as needed */
+        margin-left: 6vw;
+        height: auto; /* Adjust as needed */
+        /*border: 3px solid rgb(255, 168, 47);*/
+    }
+
+
+
+    .student {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 0vh; /* Adjust as needed */
+        /*border: 3px solid rgb(47, 255, 196);*/
+        height: 40vw;
+    }
+    
+    .yoke,
+    .first,
+    .nat {
+        width: 100%; /* Adjust as needed */
+    }
+    
+    .yoke img,
+    .first img,
+    .nat img {
+        margin-top: -1vw;
+        width: 100%; /* Adjust as needed */
+        height: auto; /* Adjust as needed */
+        margin-left: -0.1vw;
+        /*border: 3px solid rgb(255, 168, 47);*/
+    }
+    
+    .aj h3,
+    .yoke h3,
+    .first h3,
+    .nat h3 {
+        font-size: 3vw; /* Adjust as needed */
+        color: #000;
+        text-align: center;
+        margin-top: -3vh; /* Adjust as needed */
+    }
+
+    .aj p,
+    .yoke p,
+    .first p,
+    .nat p {
+        font-size: 2.5vw; /* Adjust as needed */
+        color: #000;
+        text-align: center;
+        margin-top: 0.5vh; /* Adjust as needed */
+    }
+    
+    
+
+
+    
+
+}
