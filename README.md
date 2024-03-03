@@ -4,7 +4,7 @@
 </div>
 <div align="center">
 <a href="https://nattntn.github.io/DentAI_webpage/" ><strong>DENTAI</strong></a> 
-<a href="https://github.com/nattntn/DentAI_webpage/tree/main" ><strong>Source code</strong></a>
+<a href="https://github.com/nattntn/DentAI_webpage" ><strong>Source code</strong></a>
 <br/>
 </div>
   
