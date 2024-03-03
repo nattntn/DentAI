@@ -3,7 +3,7 @@
     <img src="./DeepToothDoc/logo2.svg" width="200" alt="">   
 </div>
 <div align="center">
-<a href="https://nattntn.github.io/DentAI/#" ><strong>DENTAI</strong></a> 
+<a href="https://nattntn.github.io/DentAI_webpage/" ><strong>DENTAI</strong></a> 
 <a href="https://github.com/nattntn/DentAI" ><strong>Source code</strong></a>
 <br/>
 </div>
