@@ -235,12 +235,12 @@ nav div li a {
     margin-top: 200px;
     width: 1200px;
     height: 1000px;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 .sub3_4{
     width: 1200px;
     height: 1000px;
-    border: 1px solid red;
+   /* border: 1px solid red;*/
 }
 .webApp {
     margin-top: 10px;
@@ -333,7 +333,7 @@ nav div li a {
 }
 
 .webApp h6 {
-    margin-top: 20px;
+    margin-top: 0px;
     text-align: center;
     font-size: 40px;
     color: #000;
@@ -342,7 +342,7 @@ nav div li a {
 .yolo {
     display: flex;
     justify-content: space-between;
-    margin-top: 20px
+    margin-top: 0px
 }
 
 .con {
